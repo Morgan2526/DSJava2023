@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculator</title>
+</head>
+<body>
+
+<h1 style = "text-align:center">The output element </h1>
+
+<h3 style = "text-align:center">Addition</h3>
+<form align="center"oninput="c.value=parseInt(a.value)+parseInt(b.value)">
+<input type="range" id="a" value="100">
++<input type="range" id="b" value="100">
+=<output name="c" for="a b"></output>
+</form>
+
+<br>
+<br>
+
+<h3 style = "text-align:center">Subtraction</h3>
+<form align="center" oninput="r.value = parseInt(p.value)-parseInt(q.value)">
+<input type = "number" id="p" value="10">
+-<input type = "number" id = "q" value = "10">
+=<output name="r" for="p q"></output>
+</form>
+
+
+<br>
+<br>
+<h3 style = "text-align:center">Multiplication</h3>
+<form align="center" oninput="z.value = parseInt(x.value)*parseInt(y.value)">
+<input type = "range" id="x" value="10">
+*<input type = "number" id = "y" value = "10">
+=<output name="z" for="x y"></output>
+</form>
+
+
+<br>
+<br>
+
+<h3 style = "text-align:center">Division</h3>
+<form align="center" oninput="i.value = parseInt(j.value)/parseInt(k.value)">
+<input type = "number" id="j" value="10">
+/<input type = "range" id = "k" value = "10">
+=<output name="i" for="j k"></output>
+</form>
+
+
+</body>
+</html>
